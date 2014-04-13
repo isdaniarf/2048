@@ -413,6 +413,22 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
+  .tile.tile-4096 .tile-inner {
+    color: #f9f6f2;
+    background: #edc22e;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.639), inset 0 0 0 1px rgba(255, 255, 255, 0.3809);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-8192 .tile-inner {
+    color: #f9f6f2;
+    background: #edc22e;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.72), inset 0 0 0 1px rgba(255, 255, 255, 0.4285);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
